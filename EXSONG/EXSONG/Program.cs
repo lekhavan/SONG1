@@ -6,7 +6,9 @@ namespace EXSONG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("please, enter song: ");
+            int numSongs = int.Parse(Console.ReadLine());
+            List<song> songs = new List<song>();
         }
     }
 }
